@@ -1,0 +1,84 @@
+div.content {
+	font-size: 12px;
+	margin: 40px 400px 40px 60px;
+	text-align: justify;
+}
+div.lmenu {
+	float: right;
+	margin: 0 60px 0 30px;
+	padding: 40px 0;
+	width: 320px;
+}
+.catalog ul {
+	list-style: none;
+}
+.catalog ul li {
+	float: left;
+	margin: 10px;
+	padding: 0;
+	height: 170px;
+	width: 140px;
+}
+.cart {
+	background: url('http://www.aiway.ru/images/ltel.gif') no-repeat left top;
+	height: 112px;
+	width: 320px;
+}
+.cart p {
+	margin: 0 0 0 20px;
+	padding: 5px 0;
+	font-size: 14px;
+}
+.cart p a {
+	display: block;
+	padding-top: 10px;
+}
+.catalog ul li {
+	text-align: center;
+}
+.catalog ul li p {
+	margin: 0;
+	padding: 2px 0;
+}
+
+.flashmessage {
+	position: fixed;
+	padding: 15px;
+	width: 150px;
+	background: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	opacity: 0.9;
+	box-shadow: 0 0 5px #000000;
+	top: 15px;
+	right: 15px;
+	text-align: left;
+}
+.flashmessage p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.flashmessage p.prod, .flashmessage p.summ {
+	font-size: 11px;
+}
+.flashmessage p.prod font, .flashmessage p.summ font {
+	color: #000000;
+	font-size: 12px;
+}
+.flashmessage a {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFFFFF;
+	display: block;
+	margin: 5px 0;
+	padding:5px 10px;
+}
+.flashmessage a:hover {
+	box-shadow: 0 0 5px #000000;
+}
+.carts {
+	width: 100%;
+}
